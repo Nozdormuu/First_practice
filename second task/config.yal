@@ -1,0 +1,15 @@
+# Конфигурационный файл для программы переноса данных из Google Sheets в PostgreSQL
+
+# Настройки Google Sheets
+google_sheets:
+  credentials_file: "path/to/credentials.json"  # Путь к файлу с учетными данными для доступа к Google Sheets API
+  spreadsheet_id: "your_spreadsheet_id"  # Идентификатор Google Sheets
+  sheet_name: "your_sheet_name"  # Название листа в Google Sheets
+
+# Настройки PostgreSQL
+postgresql:
+  host: "your_postgresql_host"  # Хост PostgreSQL сервера
+  port: "your_postgresql_port"  # Порт PostgreSQL сервера
+  database: "your_database_name"  # Имя базы данных PostgreSQL
+  username: "your_username"  # Имя пользователя PostgreSQL
+  password: "your_password"  # Пароль пользователя PostgreSQL
